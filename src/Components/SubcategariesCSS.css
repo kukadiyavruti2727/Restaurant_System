@@ -1,0 +1,32 @@
+.app {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+  } 
+  ::-webkit-scrollbar-thumb {
+    background:#0284c7; 
+    border-radius: 6px;
+  }
+
+  .menu-items::-webkit-scrollbar {
+    display: none;
+  }
+  .menu-items {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+  .scrollable-popup {
+    max-height: 80vh;
+    overflow-y: auto; 
+}
+  
