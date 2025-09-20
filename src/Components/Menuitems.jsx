@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import axios from 'axios';
-import '../Components/SubcategariesCss.css';
+import "../Components/SubCategoriesCss.css";
 
 const Menuitems = ({ selectedCategory, addToCart }) => {
   const [allMenuItems, setAllMenuItems] = useState([]);

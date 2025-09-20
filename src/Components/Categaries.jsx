@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import '../Components/SubcategariesCss.css';
+import "../Components/SubCategoriesCss.css";
 
 const Categories = ({ onSelectCategory, activeCategory }) => {
     const [categoryNames, setCategoryNames] = useState([]);

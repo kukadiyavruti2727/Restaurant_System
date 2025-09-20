@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import logo from '../assets/Image/Logo.png';
 import { IoClose, IoLocationSharp } from 'react-icons/io5';
 import { FaArrowLeft, FaInfoCircle, FaPhoneAlt } from 'react-icons/fa';
-import '../Components/SubcategariesCSS.css'
+import "../Components/SubCategoriesCss.css";
 import pickupIcon from "../assets/Image/Popupsvg1.png";
 import dineInIcon from "../assets/Image/popupsvg2.png";
 import deliveryIcon from "../assets/Image/popupsvg3.png";
