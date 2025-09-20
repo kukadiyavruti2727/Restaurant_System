@@ -3,7 +3,7 @@ import Categaries from './Categaries';
 import Menuitems from './Menuitems';
 import Search from './Search';
 import Cart from './Cart';
-import '../Components/SubcategariesCss.css';
+import '../Components/subcategariesCss.css';
 
 const SubCategaries = () => {
   const [cart, setCart] = useState([]);
