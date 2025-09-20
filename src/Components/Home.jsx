@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Header from './Header'
 import Buttons from './Buttons'
-import SubCategaries from './SubCategaries'
+import SubCategories from './SubCategories'
 import Footer from './Footer'
 
 
@@ -16,7 +16,7 @@ const Home = () => {
     <div>
       <Header />
       <Buttons onSelectCategory={onSelectCategory} selectedCategory={selectedCategory} />
-      <SubCategaries  selectedCategory={selectedCategory}/>
+      <SubCategories  selectedCategory={selectedCategory}/>
       <Footer />
     </div>
   )
