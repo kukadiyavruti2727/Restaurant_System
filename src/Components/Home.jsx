@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Header from './Header'
 import Buttons from './Buttons'
-import SubCategories from './SubCategories'
+import SubCategories from '../Components/SubCategories'
 import Footer from './Footer'
 
 
